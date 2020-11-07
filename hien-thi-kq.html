@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hien thi kq js</title>
+</head>
+<body>
+<button onclick="myfuntion()" type="button" >click</button>
+<script>
+    function myfuntion(){
+        alert('xin chao')
+    }
+</script>
+<p id="toan">xin chao</p>
+<button onclick="action()" type="button">an vao</button><br>
+<script>
+    function action(){
+        document.getElementById('toan').innerHTML = 'bye bye'
+    }
+</script>
+<button type="button" onclick="showMessage();">Click Me!</button><br>
+<script>
+    function showMessage(){
+        document.write('Xin chào!')
+    }
+    //day la chu thich cua toi
+</script>
+<button type="button" onclick="showMessage1();">Click Me!</button>
+<script>
+    function showMessage1(){
+        console.log('Xin chào!');
+    }
+</script>
+<script type="text/javascript">
+    document.write('hello cac ban')
+</script>
+</body>
+</html>
